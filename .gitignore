@@ -1,0 +1,24 @@
+# PDFs de artigos, TCCs e documentos baixados
+*.pdf
+
+# Arquivos temporários
+*.tmp
+*.bak
+*~
+
+# LibreOffice / Word temporários
+.~lock*
+~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Python / simulação
+__pycache__/
+*.pyc
+
+# Resultados grandes de simulação
+simulacao/resultados/*.csv
+simulacao/resultados/*.log
+simulacao/resultados/*.pcap
